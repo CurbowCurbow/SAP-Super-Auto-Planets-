@@ -8,11 +8,4 @@ public class UnitType {
         this.ability = ability;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public String getAbility() {
-        return ability;
-    }
 }
