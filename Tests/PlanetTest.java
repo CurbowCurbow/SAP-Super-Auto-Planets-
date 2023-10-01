@@ -2,11 +2,13 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotSame;
 
+import org.junit.Before;
+
 public class PlanetTest {
     private UnitType earthType;
     private UnitType marsType;
 
-    @BeforeEach
+    @Before
     public void setUp() {
         // Create some planet types for testing
         earthType = UnitFactory.getUnitType("Earth", "Terrestrial");
